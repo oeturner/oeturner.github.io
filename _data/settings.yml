@@ -11,17 +11,22 @@ menu:
 # Projects Section
 
 projects:
-- {name: 'Project One',   url: 'proj-1'}
+- {name: 'Quilting',   url: 'quilts'}
 - {name: 'Project Two',   url: 'proj-2'}
 - {name: 'Project Three', url: 'proj-3'}
 - {name: 'Project Four',  url: 'proj-4'}
 - {name: 'Project Five',  url: 'proj-5'}
 
+# Quilts Section
+quilts:
+- {name: 'hurricane',   url: 'hurricane'}
+
 #-------------------------------
 # Contact Section
 
 social:
-# - {icon: 'twitter',   link: 'https://twitter.com/paululele'}
+- {icon: 'camera',    link: 'https://letterboxd.com/OETurner/'}
+- {icon: 'music',    link: 'https://record.club/oeturner'}
 - {icon: 'instagram', link: 'https://instagram.com/oliversquiltlog'}
 # - {icon: 'github',    link: 'https://github.com/oeturner'}
 # - {icon: 'linkedin',  link: 'https://linkedin.com/in/lenpaul'}

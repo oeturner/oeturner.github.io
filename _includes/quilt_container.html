@@ -1,0 +1,13 @@
+<section>
+  <div class="quilt-container">
+    {% for quilt in site.data.settings.quilts %}
+      <a href="{{ site.github.url }}/quilts/{{ quilt.url }}">
+        <div class="quilt-unit" data-folder="{{ site.github.url }}/quilts/{{ quilt.url }}">
+          <div class="quilt-overlay">
+            <strong>{{ quilt.name }} <i class="fa fa-arrow-right" aria-hidden="true"></i></strong>
+          </div>
+        </div>
+      </a>
+    {% endfor %}
+  </div>
+</section>
