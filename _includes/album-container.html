@@ -1,0 +1,11 @@
+<section>
+  <div class="album-container">
+    {% for album in site.data.settings.albums %}
+      <div class="album-unit" data-folder="{{ site.github.url }}/albums/{{ album.url }}" style="background-image: url({{ site.github.url }}/assets/img/albums/{{ album.index }} - {{ album.title}} - {{ album.artist }}.png)">
+        <div class="album-overlay">
+          <strong>{{ album.title }} <i class="fa fa-check" aria-hidden="true"></i></strong>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</section>

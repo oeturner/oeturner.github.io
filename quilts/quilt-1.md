@@ -1,9 +1,7 @@
 ---
 layout: post
-title: 'Quilt One'
+title: 'Hurricane'
 ---
-Quilt One
+Hurricane
 
-{% include image.html url="http://www.gratisography.com" image="projects/proj-1/dog.jpg" %}
-
-{% include image.html url="http://www.gratisography.com" image="projects/proj-1/wall.jpg" %}
+{% include image.html url="http://www.gratisography.com" image="quilts/quilt-1/front.jpeg" %}

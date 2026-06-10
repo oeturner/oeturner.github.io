@@ -12,7 +12,7 @@ menu:
 
 projects:
 - {name: 'Quilting',   url: 'quilts'}
-- {name: 'Project Two',   url: 'proj-2'}
+- {name: 'Albums Index',   url: 'albums'}
 - {name: 'Project Three', url: 'proj-3'}
 - {name: 'Project Four',  url: 'proj-4'}
 - {name: 'Project Five',  url: 'proj-5'}
@@ -60,3 +60,8 @@ google-analytics-ua: 'UA-112060364-3'
 disqus:
   comments: false
   disqus_shortname: ''
+
+
+#albums list
+albums:
+- {index: 1, title: "Man's Best Friend", artist: 'Sabrina Carpenter', listened: true}
